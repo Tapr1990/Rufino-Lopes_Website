@@ -1,0 +1,16 @@
+.hero_container {
+    position: relative;
+    height: 750px;
+   
+}
+
+.hero_container::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    z-index: 1;
+}
